@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ada8a8;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: all;
+}
+#person{
+    background-color: #79543e;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+}
+img{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#image{
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 47px;
+    top: 20px;
+}
+#card{
+    width: 500px;
+    position: absolute;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    left: 40px;
+}
+h1{
+    position: relative;
+    top: 50px;
+    font-size: 35px;
+}
+#phrase{
+    position: relative;
+    top: 90px;
+    left: 70px;
+    font-size: 20px;
+    width: 400px;
+}
+#Him\ history{
+    width: 1200px;
+    height: 500px;
+    background-color: #402A22;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
+    position: relative;
+    left: 250px;
+}
+#text{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    width: 1100px;
+    left: 50px;
+}
+#nav{
+    width: 1200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 1200px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: auto;
+    height: 450px;
+    background-image: #402A22;
+    margin: auto;
+    position: relative;
+    background-image: url(fond.png);
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+header h1{
+    text-align: center;
+    top: 150px;
+    font-size: 40px;
+}
+header p{
+    position: relative;
+    top: 170px;
+    left: 450px;
+    font-size: 20px;       
+    width: 400px;
+} 
+#main{
+    width: 250px;
+    position: absolute;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    left: 20px;
+    top: 500px;
+}                        
+#image2{
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 27px;
+    top: 20px;
+}
+#main img{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#main h1{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 25px;
+}
+#main p{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: 15px;
+    width: 210px;
+}
+#main2{
+    width: 250px;
+    position: absolute;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    left: 300px;
+    top: 500px;
+}                        
+#image3{
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 27px;
+    top: 20px;
+}
+#main2 img{ 
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#main2 h1{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 25px;
+}
+#main2 p{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: 15px;
+    width: 210px;
+}       
+#main3{
+    width: 250px;
+    position: absolute;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    left: 580px;
+    top: 500px;
+}                        
+#image4{
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 27px;
+    top: 20px;
+}
+#main3 img{ 
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#main3 h1{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 25px;
+}
+#main3 p{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: 15px;
+    width: 210px;
+}   
+#main4{
+    width: 250px;
+    position: absolute;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    left: 860px;
+    top: 500px;
+}                        
+#image5{
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 27px;
+    top: 20px;
+}
+#main4 img{ 
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#main4 h1{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 25px;
+}
+#main4 p{
+    position: relative;
+    top: 70px;  
+    left: 20px;
+    font-size: 15px;
+    width: 210px;
+}
+#main5{
+    width: 250px;
+    position: absolute;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    left: 1140px;
+    top: 500px;
+}
+#image6{
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 27px;
+    top: 20px;
+}
+#main5 img{ 
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+#main5 h1{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 25px;
+}
+#main5 p{
+    position: relative;
+    top: 70px;  
+    left: 20px;
+    font-size: 15px;
+    width: 210px;
+}  
+footer p{
+    color: azure;
+    font-size: 20px;
+}                       
+
+#personal{
+    left: 35px;
+}
+
+#foter{
+    border-radius: 0px;
+    left: 0px;
+    margin-top: 800px;
+    width: auto;
+
+}
