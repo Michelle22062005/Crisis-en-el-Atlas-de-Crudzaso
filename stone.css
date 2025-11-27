@@ -1,0 +1,66 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #1c3042;
+}
+
+.title{
+    margin: 0;
+    margin-top: 0;
+    background-image: url("espada_piedra.png");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    margin-bottom: 20px;
+}
+h1{
+    margin: auto;
+    padding-top: 70px;
+    color: white;
+    text-align: center ;
+    font-size: 3rem;
+}
+.paragraph{
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+    gap: 10px;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    background-color: #f5a524;
+    border-radius: 10px;
+}
+.parag, picture{
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    padding-top: auto;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.picture{
+    padding: 20PX;
+    background-image: url("unnamed.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+.picture::after {
+    
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0);
+    transition: background 0.3s;
+}
+
+.picture:hover::after {
+    background: rgba(0,0,0,0.4);
+}
